@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Программа для учебной практики по вариантам
 int main() {
     setlocale(LC_ALL, "Russian");
     double price;
