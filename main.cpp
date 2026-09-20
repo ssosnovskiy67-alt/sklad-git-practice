@@ -23,5 +23,9 @@ int main() {
     cout << "Общая стоимость товаров дороже 1000 рублей: " << sum << endl;
     cout << "Количество таких товаров: " << count << endl;
 
+    if (count > 0) {
+        cout << "Средняя стоимость: " << sum / count << endl;
+    }
+
     return 0;
 }
