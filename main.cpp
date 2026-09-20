@@ -25,8 +25,9 @@ int main() {
     cout << "Количество таких товаров: " << count << endl;
 
     if (count > 0) {
-        cout << "Средняя стоимость: " << sum / count << endl;
+    	cout << "Средняя стоимость: " << sum / count << endl;
     }
+    cout << "Общее количество введённых значений обработано." << endl;
 
     return 0;
 }
